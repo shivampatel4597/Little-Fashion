@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: white;
+  font-size: 16px;
+  height: 70px;
+  padding: 35px;
+}
+
+.navbar .left h3 span.word1 {
+  color: #ff4400;
+}
+.navbar .left h3:hover {
+  color: #ff4400;
+  cursor: pointer;
+}
+.navbar .left h3 {
+  font-size: 25px;
+}
+
+.center .unorderList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.unorderList li {
+  list-style: none;
+  padding: 0px 25px;
+  font-size: 20px;
+}
+.unorderList li:hover {
+  color: #ff4400;
+  font-size: 25px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+.right i {
+  padding: 0 15px;
+  font-size: 16px;
+}
+.right i:hover {
+  color: #ff4400;
+  font-size: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* styling first image */
+.imgContainer1 {
+  margin-top: 80px;
+  width: 100%;
+  position: relative;
+}
+.imgContainer1 img {
+  width: 100%;
+  height: 600px;
+  filter: brightness(0.7);
+}
+
+.overlay-content1 {
+  position: absolute;
+  width: 600px;
+
+  top: 30%;
+  left: 50px;
+  /* border: 4px solid rgb(226, 241, 11); */
+  /* color: #ff4400; */
+}
+.overlay-content1 h1 {
+  margin-top: -31px;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+.overlay-content1 p {
+  margin-top: 30px;
+  font-size: 22px;
+  color: white;
+  font-weight: 100;
+  filter: brightness(0.8);
+}
+.overlay-content1 .anchor {
+  display: block;
+  width: 240px;
+  margin: 89px 0 0 0;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 200;
+  padding: 14px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+}
+
+.overlay-content1 .anchor:hover {
+  background-color: #ff4400;
+  border: none;
+  cursor: pointer;
+}
+/* second image */
+
+.imgContainer2 {
+  width: 100%;
+  height: 650px;
+  /* background-color: aqua; */
+}
+.imgContainer2 h1 {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 70px;
+}
+.overlay-content2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.overlay-content2 .box1 {
+  margin-left: 75px;
+}
+.overlay-content2 .box1 h4 {
+  margin-top: 25px;
+  font-size: 18px;
+  /* padding: 15px; */
+  padding: 15px 25px 0 0;
+}
+.overlay-content2 .box1 a {
+  text-decoration: none;
+}
+.overlay-content2 .box1 a:hover {
+  color: #ff4400;
+}
+.overlay-content2 .box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-content2 img {
+  width: 90%;
+  margin-top: 60px;
+}
+
+.overlay-content2 .box3 {
+  width: 400px;
+  height: 300px;
+  margin-right: 15px;
+  margin-top: 25px;
+  /* background-color: red; */
+}
+
+.overlay-content2 .box3 h4 {
+  font-size: 35px;
+}
+.overlay-content2 .box3 p {
+  font-size: 25px;
+  margin-top: 14px;
+  color: white;
+  filter: brightness(0.5);
+}
+.box3-fields .box3-fields3 {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.box3-fields .box3-fields3 span {
+  margin: 0px 90px;
+  font-size: 20px;
+}
+
+.box3 .explore {
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  filter: brightness(0.8);
+}
+.box3 .explore a:hover {
+  color: #ff4400;
+}
+#span-1 {
+  margin: 167px;
+  margin-right: 20px;
+}
+#span-3 {
+  margin: 114px;
+  margin-right: 20px;
+}
+
+/* image container3 */
+.imgContainer3 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.imgContainer3 .firstDiv {
+  width: 50%;
+  height: 421px;
+  background-color: aqua;
+}
+.imgContainer3 .firstDiv img {
+  width: 100%;
+}
+.imgContainer3 .secondDiv {
+  width: 50%;
+  height: 421px;
+  background-color: #f0f8ff;
+}
+.secondDiv .secondDivContent {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  gap: 64px;
+  margin: 82px 50px;
+  /* background: green; */
+}
+.secondDivContent h1 {
+  font-size: 36px;
+}
+.secondDivContent p {
+  font-size: 30px;
+  color: white;
+  filter: brightness(0.5);
+}
+
+.secondDiv .secondDivContent a {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  filter: brightness(0.7);
+}
+
+.secondDivContent a:hover {
+  color: #ff4400;
+}
+/* 4 image container */
+.imgContainer4 {
+  width: 100%;
+  height: 800px;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imgContainer4 .threeDivs {
+  display: flex;
+  gap: 35px;
+  margin-top: -86px;
+}
+.imgContainer4 h1 {
+  margin-top: -1px;
+  font-size: 45px;
+}
+.imgContainer4 .sameDiv img:hover {
+  /* border: 4px solid red; */
+  opacity: 1;
+  cursor: pointer;
+}
+.imgContainer4 .sameDiv h2:hover {
+  color: #ff4400;
+  cursor: pointer;
+}
+
+.sameDiv img {
+  height: 400px;
+  width: 350px;
+  margin-top: 44px;
+  background-color: #ff4400;
+  /* border: 2px solid black; */
+  opacity: 0.8;
+}
+.threeDivs .sameDiv .sameDivContent {
+  padding: 17px;
+  display: flex;
+  gap: 155px;
+}
+.sameDiv h6 {
+  font-size: 13px;
+  padding-left: 19px;
+  margin-top: -16px;
+}
+
+.imgContainer4 .ah3 {
+  text-decoration: underline;
+  color: white;
+  filter: brightness(0.6);
+  margin-top: -56px;
+}
+.imgContainer4 .ah3:hover {
+  color: #fb4a0a;
+  cursor: pointer;
+}
+/* Footer css styling */
+footer {
+  width: 100%;
+  height: 340px;
+  background-color: black;
+  color: #f0f8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+}
+
+footer .sameDiv {
+  height: 300px;
+  width: 300px;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-top: -5px;
+  padding: 29px;
+}
+
+footer .footerDiv1 {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+footer .footerDiv2 {
+  height: 300px;
+  width: 400px;
+  border: 2px solid black;
+  margin-top: -5px;
+}
+.footerDiv2 h1 {
+  margin-top: 33px;
+}
+.footerDiv2 .ulDiv {
+  margin-top: 13px;
+  margin-left: -19px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footerDiv2 .ulDiv li {
+  width: 79px;
+  list-style: none;
+  text-align: center;
+  opacity: 0.5;
+}
+.footerDiv2 .ulDiv li:hover {
+  opacity: 1;
+  cursor: pointer;
+  /* transition: 0.8 ease; */
+}
+
+footer .footerDiv3 .fa-brands {
+  width: 40px;
+  margin-top: 14px;
+}
+
+.footerDiv3 .footerIcon i {
+  opacity: 0.5;
+}
+.footerDiv3 .footerIcon i:hover {
+  opacity: 1;
+  cursor: pointer;
+}
