@@ -38,18 +38,31 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #f0f8ff;
+  filter: brightness(0.8);
+  gap: 50px;
 }
 
 .unorderList li {
   list-style: none;
-  padding: 0px 25px;
+  /* padding: 0px 25px; */
   font-size: 20px;
+}
+.unorderList li a {
+  text-decoration: none;
+  color: #fd7e14;
+}
+.unorderList .ls1 {
+  color: #fd7e14;
+
+  border-bottom: 2px solid gray;
 }
 .unorderList li:hover {
   color: #ff4400;
-  font-size: 25px;
-  transition: 0.4s;
+  /* font-size: 25px; */
+  transition: 0.6s;
   cursor: pointer;
+  border-bottom: 2px solid gray;
 }
 
 .right {
@@ -71,19 +84,21 @@ body {
 .imgContainer1 {
   margin-top: 80px;
   width: 100%;
+  height: 650px;
   position: relative;
 }
 .imgContainer1 img {
   width: 100%;
-  height: 600px;
-  filter: brightness(0.7);
+  height: 100%;
+  filter: brightness(0.9);
+  object-fit: fill;
 }
 
 .overlay-content1 {
   position: absolute;
   width: 600px;
 
-  top: 30%;
+  top: 42%;
   left: 50px;
   /* border: 4px solid rgb(226, 241, 11); */
   /* color: #ff4400; */
@@ -95,11 +110,13 @@ body {
   color: white;
 }
 .overlay-content1 p {
+  font-family: "Abel", sans-serif;
   margin-top: 30px;
-  font-size: 22px;
+  font-size: 25px;
   color: white;
   font-weight: 100;
-  filter: brightness(0.8);
+  line-height: 40px;
+  /* filter: brightness(0.8); */
 }
 .overlay-content1 .anchor {
   display: block;
@@ -167,8 +184,8 @@ body {
 .overlay-content2 .box3 {
   width: 400px;
   height: 300px;
-  margin-right: 15px;
-  margin-top: 25px;
+  margin-right: -13px;
+  margin-top: 22px;
   /* background-color: red; */
 }
 
@@ -176,13 +193,15 @@ body {
   font-size: 35px;
 }
 .overlay-content2 .box3 p {
-  font-size: 25px;
-  margin-top: 14px;
+  font-family: "Abel", sans-serif;
+  font-size: 32px;
+  margin-top: 10px;
+
   color: white;
   filter: brightness(0.5);
 }
 .box3-fields .box3-fields3 {
-  margin-top: 25px;
+  /* margin-top: 25px; */
   font-size: 20px;
 }
 
@@ -280,7 +299,9 @@ body {
 }
 .imgContainer4 .sameDiv img:hover {
   /* border: 4px solid red; */
-  opacity: 1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   cursor: pointer;
 }
 .imgContainer4 .sameDiv h2:hover {
@@ -294,7 +315,7 @@ body {
   margin-top: 44px;
   background-color: #ff4400;
   /* border: 2px solid black; */
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 .threeDivs .sameDiv .sameDivContent {
   padding: 17px;
@@ -325,59 +346,27 @@ footer {
   color: #f0f8ff;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 55px;
+  justify-content: space-between;
 }
 
-footer .sameDiv {
-  height: 300px;
-  width: 300px;
-  font-size: 18px;
-  border: 2px solid black;
-  margin-top: -5px;
-  padding: 29px;
-}
-
-footer .footerDiv1 {
+footer .footerDiv2 {
+  height: 255px;
+  width: 400px;
+  margin-top: 78px;
   display: flex;
   flex-direction: column;
-  gap: 44px;
+  line-height: 40px;
 }
-footer .footerDiv2 {
-  height: 300px;
-  width: 400px;
-  border: 2px solid black;
-  margin-top: -5px;
+.footerDiv2 h4 {
+  margin-bottom: 10px;
 }
-.footerDiv2 h1 {
-  margin-top: 33px;
-}
-.footerDiv2 .ulDiv {
-  margin-top: 13px;
-  margin-left: -19px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.footerDiv2 .ulDiv li {
-  width: 79px;
-  list-style: none;
-  text-align: center;
-  opacity: 0.5;
-}
-.footerDiv2 .ulDiv li:hover {
-  opacity: 1;
-  cursor: pointer;
-  /* transition: 0.8 ease; */
+footer .product-section {
+  padding-top: 42px;
 }
 
-footer .footerDiv3 .fa-brands {
-  width: 40px;
-  margin-top: 14px;
-}
-
-.footerDiv3 .footerIcon i {
+.footerDiv2 .footerIcon .fa-brands {
   opacity: 0.5;
+  margin-left: 9px;
 }
 .footerDiv3 .footerIcon i:hover {
   opacity: 1;
