@@ -13,15 +13,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
   /* position: fixed; */
+=======
+  position: fixed;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
   top: 0;
   left: 0;
   z-index: 1000;
   background-color: white;
   font-size: 16px;
+<<<<<<< HEAD
   height: 87px;
   padding: 35px;
   /* border: 2px solid red; */
+=======
+  height: 70px;
+  padding: 35px;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
 }
 
 .navbar .left h3 span.word1 {
@@ -39,7 +48,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
   /* color: #f0f8ff; */
+=======
+  color: #f0f8ff;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
   filter: brightness(0.8);
   gap: 50px;
 }
@@ -47,11 +60,15 @@ body {
 .unorderList li {
   list-style: none;
   /* padding: 0px 25px; */
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
   font-size: 20px;
 }
 .unorderList li a {
   text-decoration: none;
+<<<<<<< HEAD
   color: white;
 }
 .unorderList .ls1 a {
@@ -65,6 +82,21 @@ body {
   transition: 0.6s;
   cursor: pointer;
   border-bottom: 2px solid rgb(251, 242, 242);
+=======
+  color: #fd7e14;
+}
+.unorderList .ls1 {
+  color: #fd7e14;
+
+  border-bottom: 2px solid gray;
+}
+.unorderList li:hover {
+  color: #ff4400;
+  /* font-size: 25px; */
+  transition: 0.6s;
+  cursor: pointer;
+  border-bottom: 2px solid gray;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
 }
 
 .right {
@@ -84,7 +116,11 @@ body {
 
 /* styling first image */
 .imgContainer1 {
+<<<<<<< HEAD
   /* margin-top: 80px; */
+=======
+  margin-top: 80px;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
   width: 100%;
   height: 650px;
   position: relative;
@@ -162,14 +198,21 @@ body {
 }
 .overlay-content2 .box1 h4 {
   margin-top: 25px;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 18px;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
   /* padding: 15px; */
   padding: 15px 25px 0 0;
 }
 .overlay-content2 .box1 a {
   text-decoration: none;
+<<<<<<< HEAD
   color: white;
   filter: brightness(0.8);
+=======
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
 }
 .overlay-content2 .box1 a:hover {
   color: #ff4400;
@@ -188,9 +231,14 @@ body {
 .overlay-content2 .box3 {
   width: 400px;
   height: 300px;
+<<<<<<< HEAD
   margin-right: 29px;
   margin-top: 22px;
   padding: -3px;
+=======
+  margin-right: -13px;
+  margin-top: 22px;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
   /* background-color: red; */
 }
 
@@ -200,11 +248,16 @@ body {
 .overlay-content2 .box3 p {
   font-family: "Abel", sans-serif;
   font-size: 32px;
+<<<<<<< HEAD
   margin-top: 15px;
+=======
+  margin-top: 10px;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
 
   color: white;
   filter: brightness(0.5);
 }
+<<<<<<< HEAD
 /* .box3-fields .box3-fields3 {
   
   font-size: 20px;
@@ -247,6 +300,22 @@ td:nth-child(even) {
 }
 
 .box3 .explore a {
+=======
+.box3-fields .box3-fields3 {
+  /* margin-top: 25px; */
+  font-size: 20px;
+}
+
+.box3-fields .box3-fields3 span {
+  margin: 0px 90px;
+  font-size: 20px;
+}
+
+.box3 .explore {
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: bold;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
   color: white;
   filter: brightness(0.8);
 }
@@ -276,7 +345,10 @@ td:nth-child(even) {
 }
 .imgContainer3 .firstDiv img {
   width: 100%;
+<<<<<<< HEAD
   height: 100%;
+=======
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
 }
 .imgContainer3 .secondDiv {
   width: 50%;
@@ -375,7 +447,11 @@ td:nth-child(even) {
 /* Footer css styling */
 footer {
   width: 100%;
+<<<<<<< HEAD
   height: 320px;
+=======
+  height: 340px;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
   background-color: black;
   color: #f0f8ff;
   display: flex;
@@ -386,12 +462,18 @@ footer {
 footer .footerDiv2 {
   height: 255px;
   width: 400px;
+<<<<<<< HEAD
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   line-height: 60px;
 }
 footer .footHeight {
+=======
+  margin-top: 78px;
+  display: flex;
+  flex-direction: column;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
   line-height: 40px;
 }
 .footerDiv2 h4 {
@@ -401,6 +483,7 @@ footer .product-section {
   padding-top: 42px;
 }
 
+<<<<<<< HEAD
 .footerIcon .fa-brands {
   opacity: 0.5;
   margin-left: 9px;
@@ -408,4 +491,13 @@ footer .product-section {
 
 .footerIcon .fa-brands:hover {
   opacity: 1;
+=======
+.footerDiv2 .footerIcon .fa-brands {
+  opacity: 0.5;
+  margin-left: 9px;
+}
+.footerDiv3 .footerIcon i:hover {
+  opacity: 1;
+  cursor: pointer;
+>>>>>>> 8bf5a7663fb2082753fe5f8253209b7ca68d04f6
 }
